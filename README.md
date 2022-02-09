@@ -8,6 +8,13 @@ Submit an issue if you hit blocker when setting up.
 
 Cheers.
 
+Setup
+=====
+
+1. Upload all the files to your PHP server.
+2. Change the config.php file under conf folder to your own settings.
+3. Launch web browser.
+
 
 Donation
 ========
