@@ -1,0 +1,44 @@
+﻿<div class="container">
+	<h4 class="text-center">
+		<b>{$address}</b>
+	</h4>
+	<div class="table-responsive">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Received</th>
+					<th>Sent</th>
+					<th>Balance</th>
+				</tr>
+			</thead>
+			<tbody>
+				{$balance_summary_body}
+			</tbody>
+		</table>
+	</div>
+	<div class="table-responsive">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Asset Name</th>
+					<th>Balance</th>
+				</tr>
+			</thead>
+			<tbody>
+				{$balance_asset_summary_body}
+			</tbody>
+		</table>
+	</div>
+	<!--<div class="table-responsive">
+		<table class="display" id="tblAddrTx">
+			<thead>
+				<tr>
+					<th>Transaction Hash</th>
+				</tr>
+			</thead>
+			<tbody>
+				{$address_transactions}
+			</tbody>
+		</table>
+	</div>-->
+</div>
